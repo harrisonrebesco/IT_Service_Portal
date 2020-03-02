@@ -1,0 +1,215 @@
+div {
+    padding-top: 10px;
+}
+
+div[class="scrollable"] {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+div[class="NavBar"] {
+    background-color: rgba(135,135,135,0.53);
+    margin: auto;
+}
+
+div[class="LogoBlock"] {
+    margin: auto;
+}
+
+.logo {
+    height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 99%;
+}
+
+h1 { 
+    font-weight: 800;
+}
+
+h2 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 0.73em;
+    margin-bottom: 0.73em;
+    margin-left: 5px;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(96, 114, 120); 
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button[class="autowidth"] {
+    width: auto;
+}
+
+body, html {
+	height: 100%;
+}
+
+html {
+    background-image: url("images/ServicePortalBackground.jpg");
+    background-color: rgb(0, 0, 0);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgba(255,255,255,0.85);
+    background-attachment: fixed;
+    height: auto;
+    padding: 15px 20px 50px 20px;
+    /* up / right / down / left */
+}
+
+table { 
+    table-layout: fixed; 
+    width: 100px;
+}
+
+table, th, td { 
+    border-collapse: collapse; 
+}
+
+th, td { 
+    padding: 1px;
+    width: 145px;
+    border: 1px solid #aaa;
+    word-wrap: break-word;
+}
+
+div[class="TableDisplayBlock"],[class="CommentDisplayBlock"] {
+    padding: 5px;
+}
+
+div[class="TableDisplayBlock"]:nth-child(even) {
+    background-color: #dddddd;
+    background-clip: content-box;
+    width: 592px;
+}
+
+div[class="CommentDisplayBlock"]:nth-child(odd) {
+    background-color: #dddddd;
+    background-clip: content-box;
+    width: 444px;
+}
+
+div.ResolutionHighlight{
+    background-color: rgba(70,220,70,0.4);
+    background-clip: content-box;
+    width: 444px;
+    padding: 0px;
+}
+
+input:valid { 
+    border: 2px solid rgb(93, 136, 216); 
+}
+
+input:invalid { 
+    border: 2px solid rgb(164,173,193); 
+}
+
+textarea:valid { 
+    border: 2px solid rgb(93, 136, 216); 
+}
+
+textarea:invalid { 
+    border: 2px solid rgb(164,173,193); 
+}
+
+input {
+    width: 200px;
+}
+
+.inlineForm { 
+    float:right;
+}
+
+div.SiteHeader{
+	padding-top:1px;
+	
+}
+div.NavBar{
+	padding-top:1px;
+	
+}
+div.LogoBlock{
+	padding-top:1px;
+	
+}
+
+div.NoPadding{
+    padding:0px;
+}
+
+div.NewIssueBlock{
+    float:right;
+}
+
+div.increaseBodyLength{
+    color: rgba(0,0,0,0);
+}
+
+input[type="checkbox"] {
+    width: auto;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    width: auto;
+    cursor: pointer;
+}
+
+span[class="tag"] {
+	padding: 0px;
+    margin: 3px 1px 3px 1px;
+    color: white;
+    background-color: rgba(88, 102, 110, 0.3);
+    background-clip: padding-box;
+    border-style: solid;
+    border-color: #99b;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+span.ResolutionText {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+span.DescriptionInstructions {
+    font-size: smaller;
+}
+
+div.AlertBox {
+    margin-left: 40px;
+    width: 300px;
+    font-size: small;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: red;
+    padding: 4px;
+}

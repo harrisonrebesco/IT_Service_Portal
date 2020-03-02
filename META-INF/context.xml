@@ -1,0 +1,22 @@
+<Context>
+	<Resource
+	name="SENG2050_A3"
+	auth="Container"
+	type="javax.sql.DataSource"
+	maxActive="100"
+	maxIdle="30"
+	maxWait="10000"
+	username="c3237487"
+	password="250396"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://teachdb/c3237487_db"/>
+	
+</Context>
+	<!-- 
+	use this in 'url' when accessing server from home:
+	jdbc:mysql://localhost:30001/c3237487_db
+			
+	use this in 'url' when accessing server from uni:
+	jdbc:mysql://teachdb/c3237487_db
+	-->
+
